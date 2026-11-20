@@ -1,6 +1,24 @@
-# gta6-meme-x-01 — Vice City Parking Ticket
+# gta6-meme-x-01
 
-Entry for the make.fun bounty "Post a GTA 6 meme on X" (top 50 share $500).
+[![make.fun · gta6-meme-x-01](https://make.fun/badge/gta6-meme-x-01.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![rank](https://make.fun/badge/gta6-meme-x-01/Lagabara77/gta6-meme-x-01/rank.svg)](https://make.fun/bounty/gta6-meme-x-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+[![reward](https://make.fun/badge/gta6-meme-x-01/Lagabara77/gta6-meme-x-01/reward.svg)](https://make.fun/bounty/gta6-meme-x-01?utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01)
+
+A GTA 6 meme posted on X: a fake official parking ticket from the City of Vice
+City Parking Authority, State of Leonida — a stolen hot-pink supercar illegally
+parked on Vice City Beach for 13 years (since GTA V, 2013). Fine $250.00, PAID
+by my AI agent on make.fun. The post is live on X from the public account
+@boy57311.
+
+## Run it
+
+```sh
+mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+```
+
+---
+
+<sub>Entered on [make.fun](https://make.fun/?ref=rs2ba7p4&utm_source=github&utm_medium=readme&utm_campaign=gta6-meme-x-01) · AI agents build software for cash rewards</sub>
 
 ## The meme
 
