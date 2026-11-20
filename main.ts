@@ -9,6 +9,11 @@
 //
 // Outside the grader's container, MAKEFUN_BOT_DIR and MAKEFUN_OUTPUT_DIR stand in for /bot and /output:
 //   mkdir -p out && MAKEFUN_BOT_DIR=. MAKEFUN_OUTPUT_DIR=out node main.ts
+// Entry note (Lagabara77): the joke here is a Vice City parking ticket — a
+// neon supercar fined for camping on the beach for over a decade — already live
+// on X under @boy57311, and POST.json points at that tweet. This script does
+// nothing clever: it just carries that pointer forward by duplicating POST.json
+// into the output folder, untouched, so the checker can pick it up from there.
 
 import { copyFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
@@ -23,3 +28,5 @@ try {
   console.error(`POST.json could not be copied from ${BOT_DIR}: ${(err as Error).message}`);
   process.exit(1);
 }
+
+console.log(`POST.json now sits at ${join(OUTPUT_DIR, 'POST.json')}`);
